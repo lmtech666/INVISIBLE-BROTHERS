@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting AI-MD V1.9 🧬...");
+console.log("Connecting IBB-XMD 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -69,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `AI-MD V1.9 connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `ɪʙʙ-xᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴛᴄʀᴏɴᴇʙ-ʜᴀᴄᴋx connected successful ✅\n\nPREFIX: ${prefix}`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/rb02st.jpg` }, caption: up })
 
@@ -180,7 +180,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey, ghost started✅");
+res.send("hey, ɪʙʙ-xᴍᴅ started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
