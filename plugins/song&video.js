@@ -11,12 +11,12 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-if(!q) return reply("*කරුණාකර Link එකක් හො නමක් ලබා දෙන්න 🔎...*")
+if(!q) return reply("*type song name play qing anto🔎...*")
 const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let desc = `*◆ ᴀɪ-ʙᴏᴛ-MD ᴠ1.9 SONG DOWNLOADING..... ◆*
+let desc = `*◆ ɪʙʙ-xᴍᴅ SONG DOWNLOADING..... ◆*
 
 | ➤ TITLE - ${data.title}
 
@@ -28,7 +28,7 @@ let desc = `*◆ ᴀɪ-ʙᴏᴛ-MD ᴠ1.9 SONG DOWNLOADING..... ◆*
 
 |➤ AGO - ${data.ago}
 
- ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀɪ-ʙᴏᴛ-ᴍᴅ ᴠ1.9
+ ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɪʙʙ-xᴍᴅ
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
@@ -39,7 +39,7 @@ let downloadUrl = down.dl_url
 
 //send audio
 await conn.sendMessage(from,{audio:{url: downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"audio/mpeg",fileName:data.title + "mp3",caption:"©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ"},{quoted:mek})
+await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"audio/mpeg",fileName:data.title + "mp3",caption:"©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɪʙʙ-xᴍᴅ"},{quoted:mek})
 }catch(e){
 reply(`${e}`)
 }
@@ -56,12 +56,12 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-if(!q) return reply("*කරුණාකර Link එකක් හො නමක් ලබා දෙන්න 🔎...*")
+if(!q) return reply("*type name or paste link🔎...*")
 const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let des = `*◆ ᴀɪ-ʙᴏᴛ-MD ᴠ1.9 VIDEO DOWNLOADING.....◆*
+let des = `*◆ ɪʙʙ-xᴍᴅ VIDEO DOWNLOADING.....◆*
 
 | ➤ TITLE - ${data.title}
 
@@ -84,7 +84,7 @@ let downloadUrl = down.dl_url
 
 //send video
 await conn.sendMessage(from,{video:{url: downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"video/mp4",fileName:data.title + "mp4",caption:"©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ"},{quoted:mek})
+await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"video/mp4",fileName:data.title + "mp4",caption:"©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɪʙʙ-xᴍᴅ"},{quoted:mek})
     
 }catch(a){
 reply(`${a}`)
