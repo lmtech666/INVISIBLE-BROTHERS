@@ -11,16 +11,16 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let dec = `*👾 𝐀𝐈 MD Repastitory Information*
+let dec = `*👾 ɪʙʙ-xMD Repastitory Information*
 
-*| ɴᴀᴍᴇ*: 𝑨𝑰-𝑩𝑶𝑻-𝑴𝑫 𝑽𝑰.9
-*| ᴏᴡɴᴇʀ*: ᴛᴄʀᴏɴᴇʙ ʜᴀᴄᴋx ( ᴀɪ-ʙᴏᴛ-ᴍᴅ ᴠ1.9 )
+*| ɴᴀᴍᴇ*: INVISIBLE BROTHER'S 
+*| ᴏᴡɴᴇʀ*: ᴛᴄʀᴏɴᴇʙ ʜᴀᴄᴋx ( IBBOT-XMD )
 *| ɴᴜᴍʙᴇʀ*: 263716394979
 *| ᴠᴇʀꜱɪᴏɴ*: 1.0.9
 
 
 *📡 REPO LINK*
-🔗◦https://github.com/TcronebHackx-Md/THE-AI-BOT.git
+🔗◦https://github.com/TcronebHackx-Md.git
 
 *📌 SUBSCRIBE MY YOUTUBE CHANNEL*
 🔗◦ https://youtube.com/@cbf_263
